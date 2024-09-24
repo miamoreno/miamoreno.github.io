@@ -1,0 +1,23 @@
+p {
+    color: blue;
+    font-family: sans-serif;
+    /*px, em, % */
+    font-size: 150%;
+    font-weight:900;
+
+}
+
+to select class
+
+.classname {
+    font-style: bold
+}
+ to select just ol classname
+ol.classname {
+    font-style: color="blue"
+}
+
+a:hover{
+    border:#713
+    border-style: 
+}
