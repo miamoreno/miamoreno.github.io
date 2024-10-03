@@ -1,0 +1,21 @@
+
+
+#bottomImage {
+    position: absolute;
+    z-index: 0;
+}
+
+#middleImage{
+    position: absolute;
+    left: 30em;
+    top: 29em;
+    z-index: 1;
+}
+
+#topImage{
+    position: absolute;
+    left: 1em;
+    top:29em;
+    z-index: 1;
+}
+
