@@ -1,0 +1,49 @@
+
+.contain {
+    border: 2px black;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: auto;
+
+  }
+ .contain > div {
+    flex: 1; /* Make div flexible */
+    margin: 10px; /* Add space between flex items */
+    width: 65%;
+    background-color: tan;
+    padding: 20px; /* Add padding inside the boxes */
+    text-align: center;
+}
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+.responsive-image {
+    max-width: 100%; 
+    height: auto; 
+}
+/* phone media */
+@media (max-width: 480px) {
+    .contain > div {
+        width: 100%; /* Make divs full on small screen */
+    }
+
+    h1, h2, h3, h4 {
+        font-size: 1em; /*smaller font */
+    }
+
+    ul {
+        padding-left: 0; /* Remove padding */
+        margin-left: 0; /* Remove left margin */
+    }
+
+    .contain {
+        padding: 5px; /* smaller padding */
+    }
+    .responsive-image {
+        width: 100%; /* Make image full width on very small screens */
+    }
+}
