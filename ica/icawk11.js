@@ -19,3 +19,5 @@ const person1 = {
 call (fortune1)
 call (fortune2)
 call (fortune3)
+
+//
